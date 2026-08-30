@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<judgment xmlns="urn:lex:content:1">
+    <header>
+        <content_id>FR-2024-CA-000126</content_id>
+        <title>Cour d'appel de Bordeaux, 2 juin 2024, n° 21/00999</title>
+        <court>Cour d'appel de Bordeaux</court>
+        <jurisdiction>FR</jurisdiction>
+        <decision_date>2024-06-02</decision_date>
+        <citations>
+            <citation type="ECLI">ECLI:FR:CA11111</citation>
+            <citation type="NOR">NOR:DEFG9876543</citation>
+        </citations>
+        <parties>
+            <party role="appellant">SAS Aquitaine Distribution</party>
+            <party role="respondent">M. Petit</party>
+        </parties>
+    </header>
+    <body>
+        <section type="facts">
+            <p id="p1">Demande en paiement de prestations de service non acquittées.</p>
+        </section>
+        <section type="reasons">
+            <p id="p2">Considérant que les factures impayées sont demeurées incontestées.</p>
+            <p id="p3">Attendu que l'exécution des prestations est attestée par les bons de commande.</p>
+        </section>
+        <section type="disposition">
+            <p id="p4">Condamnation au paiement de la somme principale augmentée des intérêts au taux légal.</p>
+        </section>
+    </body>
+</judgment>

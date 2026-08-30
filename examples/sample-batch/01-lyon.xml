@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<judgment xmlns="urn:lex:content:1">
+    <header>
+        <content_id>FR-2024-CA-000124</content_id>
+        <title>Cour d'appel de Lyon, 5 avril 2024, n° 22/00456</title>
+        <court>Cour d'appel de Lyon</court>
+        <jurisdiction>FR</jurisdiction>
+        <decision_date>2024-04-05</decision_date>
+        <citations>
+            <citation type="ECLI">ECLI:FR:CA67890</citation>
+        </citations>
+        <parties>
+            <party role="appellant">Mme Martin</party>
+            <party role="respondent">SARL Provence Vins</party>
+        </parties>
+    </header>
+    <body>
+        <section type="facts">
+            <p id="p1">L'appelante conteste la qualité de la marchandise livrée.</p>
+        </section>
+        <section type="reasons">
+            <p id="p2">Considérant les bulletins d'analyse produits versés aux débats.</p>
+        </section>
+        <section type="disposition">
+            <p id="p3">La cour confirme le jugement déféré en toutes ses dispositions.</p>
+        </section>
+    </body>
+</judgment>

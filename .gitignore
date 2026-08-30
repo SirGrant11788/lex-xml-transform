@@ -1,0 +1,27 @@
+# Build outputs
+target/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Logs / tmp
+*.log
+*.tmp
+
+# Credentials / local secrets
+.env
+.env.*
+*.pem
+*.key

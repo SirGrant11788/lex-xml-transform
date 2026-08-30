@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: lex-xml-transform
+  jackson:
+    default-property-inclusion: non_null
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+server:
+  port: 8080
+  shutdown: graceful
+
+lex:
+  ingest:
+    # Paths resolve relative to working directory. Override via LEX_INGEST_* env vars.
+    xsd-path: schemas/judgment.xsd
+    xslt-path: xslt/judgment-to-json.xsl
+    output-dir: ./out
+    batch-concurrency: 4
+    max-xml-bytes: 26214400
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics, prometheus
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      show-details: when-authorized
+  metrics:
+    tags:
+      application: ${spring.application.name}
+
+logging:
+  level:
+    com.lexisnexis: INFO
+    net.sf.saxon: WARN
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n"

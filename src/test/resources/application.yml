@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: lex-xml-transform-test
+  jackson:
+    default-property-inclusion: non_null
+
+lex:
+  ingest:
+    xsd-path: schemas/judgment.xsd
+    xslt-path: xslt/judgment-to-json.xsl
+    output-dir: ${java.io.tmpdir}/lex-test-out
+    batch-concurrency: 2
+    max-xml-bytes: 5242880
+
+logging:
+  level:
+    com.lexisnexis: DEBUG

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Intentionally invalid: missing required <content_id>, missing body, bad date format. -->
+<judgment xmlns="urn:lex:content:1">
+    <header>
+        <title>This will fail XSD validation</title>
+        <court>Test Court</court>
+        <jurisdiction>FR</jurisdiction>
+        <decision_date>not-a-date</decision_date>
+    </header>
+</judgment>

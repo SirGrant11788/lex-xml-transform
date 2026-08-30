@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<judgment xmlns="urn:lex:content:1">
+    <header>
+        <content_id>FR-2024-CA-000123</content_id>
+        <title>Cour d'appel de Paris, 12 mars 2024, n° 20/01234</title>
+        <court>Cour d'appel de Paris</court>
+        <jurisdiction>FR</jurisdiction>
+        <decision_date>2024-03-12</decision_date>
+        <citations>
+            <citation type="ECLI">ECLI:FR:CA12345</citation>
+            <citation type="NOR">NOR:ABCD1234567</citation>
+        </citations>
+        <parties>
+            <party role="appellant">Société ABC</party>
+            <party role="respondent">M. Dupont</party>
+        </parties>
+    </header>
+    <body>
+        <section type="facts">
+            <p id="p1">Le litige porte sur l'exécution d'un contrat de fourniture conclu entre les parties le 15 juin 2021.</p>
+        </section>
+        <section type="reasons">
+            <p id="p2">Considérant que la société ABC a manqué à son obligation de livraison dans les délais contractuels.</p>
+            <p id="p3">Attendu que M. Dupont a subi un préjudice direct et certain du fait de cette inexécution.</p>
+        </section>
+        <section type="disposition">
+            <p id="p4">Par ces motifs, la cour infirme partiellement le jugement et condamne la société ABC à payer la somme de 45 000 euros.</p>
+        </section>
+    </body>
+</judgment>
